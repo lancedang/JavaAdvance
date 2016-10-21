@@ -1,8 +1,5 @@
 package dang.JavaAdvance.job.array;
 
-import java.util.ArrayList;
-import java.util.Vector;
-
 /**
  * 考察的数据结构：二维数组， 考察的算法：查找算法（二分查找） 。 记住，只要是查找（不论是顺序查找，二分查找还是分块查找 ），我们所有查找的 思想 就是
  * 能通过 每次的比较 最大可能地排除 大量 不相干元素，也就是 急速的缩小 剩余查找范围 如 二分查找 一次比较就排除了一半的元素，顺序查找一次只 排除

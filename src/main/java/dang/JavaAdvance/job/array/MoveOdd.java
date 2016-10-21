@@ -10,10 +10,10 @@ public class MoveOdd {
 		int len = array.length;
 		int[] array2 = new int[len];
 		int oddNum = oddNumber(array);
+		
 		for (int i = 0, k = 0, j = oddNum; i < len; i++) {
 			if ((array[i] & 1) == 1) {
 				array2[k++] = array[i];
-
 			} else {
 				array2[j++] = array[i];
 			}
