@@ -1,6 +1,5 @@
 package dang.advance.job.thread;
 
-import com.itextpdf.text.log.SysoCounter;
 
 class MyInterruptThread extends Thread {
 	@Override

@@ -50,7 +50,7 @@ public class Html2PDFUtil {
 
 	/**
 	 * transfer a html file to PDF with IText tool, HTML file must strict html-file, <a><a/>
-	 * 
+	 *
 	 * @param fItem
 	 *            fItem must a raw file not a dirctory
 	 */
@@ -92,7 +92,7 @@ public class Html2PDFUtil {
 
 	/**
 	 * transfer a html file to PDF with PD4L tool, HTML file can not be strict html-file, <a> no</a>
-	 * 
+	 *
 	 * @param fItem
 	 *            fItem must a raw file not a dirctory
 	 */

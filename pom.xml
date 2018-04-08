@@ -38,4 +38,21 @@
 			<version>alpha.0</version>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<!--定义 compiler 插件的版本, 默认是 2.3.2，实际2.5-->
+				<configuration>
+					<!-- 源代码使用的jdk版本 -->
+					<source>1.7</source>
+					<!-- 构建后生成class文件jdk版本 -->
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>

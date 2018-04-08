@@ -1,6 +1,5 @@
 package dang.advance.job.thread;
 
-import b.b.b.c.e;
 
 class Stop extends Thread {
 	@Override
