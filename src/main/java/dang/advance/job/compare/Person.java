@@ -26,6 +26,7 @@ public class Person implements Comparable<Person> { //item 是可排序的
     //实现接口方法，定义内部排序规则，可以自定义排序的逻辑，如按照赵钱孙李
     //按照名字字符长度，甚至跟field 无关
     //注意此处的比较对象是this VS 同类的另一个实例，一般集合存放的是相同类型item
+    //@Override
     public int compareTo(Person another) {
         //比如此处我定义了 按照名字字符长度来排序
         //todo, 调用 name.compareTo(another.name)
