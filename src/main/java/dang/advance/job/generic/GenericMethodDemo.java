@@ -28,12 +28,11 @@ public class GenericMethodDemo {
         //泛型方法测试，无 extends
         Circle circle = new Circle(3);
 
-        GenericMethod.getArea(circle);
-
         Rectangle rectangle = new Rectangle(new Double(2.0), new Double(3.0));
 
+        //泛型方法，传入任意实现 IArea 接口的类
+        GenericMethod.getArea(circle);
         GenericMethod.getArea(rectangle);
-
 
     }
 }
