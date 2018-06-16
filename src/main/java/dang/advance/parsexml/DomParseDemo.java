@@ -11,7 +11,7 @@ public class DomParseDemo implements XmlDocument {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String path = "src/main/resource/ParseXML.xml";
+		String path = "src/main/readresource/ParseXML.xml";
 		new DomParseDemo().parseXml(path);
 	}
 

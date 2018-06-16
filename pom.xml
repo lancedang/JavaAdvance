@@ -32,11 +32,13 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>3.6.10.Final</version>
 		</dependency>
+		<!--
 		<dependency>
 			<groupId>ove</groupId>
 			<artifactId>ove.blake2b</artifactId>
 			<version>alpha.0</version>
 		</dependency>
+		-->
 	</dependencies>
 
 	<build>
