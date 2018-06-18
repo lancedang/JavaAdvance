@@ -1,5 +1,7 @@
 package dang.advance.myclass.readresource;
 
+import java.io.IOException;
+
 /**
  * 通过 class 类和 classloader 获取资源的练习
  * 1. class.getResource 包括
@@ -11,7 +13,7 @@ package dang.advance.myclass.readresource;
  */
 public class GetResourceDemo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int index = 0;
         //class
         //搜寻路径，所在类 GetResourceDemo 的包全路径
@@ -38,6 +40,9 @@ public class GetResourceDemo {
         System.out.println(GetResourceDemo.class.getClassLoader().getResource("dang/advance/myclass/readresource/GetResourceDemo.class"));
         System.out.println(GetResourceDemo.class.getClassLoader().getResource("dang/advance/myclass/readresource/GetResourceDemo2.class"));
         System.out.println(GetResourceDemo.class.getClassLoader().getResource("/dang/advance/myclass/readresource/GetResourceDemo.class"));
+
+        //从 classpath 路径下获取所有资源的 url enumeration
+        System.out.println(GetResourceDemo.class.getClassLoader().getResources("dang/advance/myclass/readresource/GetResourceDemo.class").nextElement());
     }
 
 }
