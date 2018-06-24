@@ -9,5 +9,6 @@ import java.util.Collection;
 public class Demo {
     public static void main(String[] args) {
         Collection collection = new ArrayList();
+
     }
 }

@@ -1,8 +1,6 @@
 package advance.job.iterator;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Dangdang on 2018/6/24.
@@ -18,6 +16,7 @@ public class IteratorUseDemo {
         //获取 ArrayList iterator
         Iterator<String> iterator = list.iterator();
 
+        //List 是有序的，故迭代顺序与插入顺序一致
         while (iterator.hasNext()) {
             String item = iterator.next();
             System.out.println(item);
@@ -33,6 +32,18 @@ public class IteratorUseDemo {
         iterator.remove();
         //[2, 3]
         System.out.println(list);
+
+        Set<Integer> set = new HashSet<>();
+        set.add(4);
+        set.add(1);
+        set.add(2);
+
+        Iterator<Integer> iterator2 = set.iterator();
+        //Iterator 并不能保证遍历顺序与 插入顺序的一致性
+        //遍历顺序取决于集合类型是否提供插入顺序的保证
+        for (Integer i : set) {
+            System.out.println(i);
+        }
 
     }
 }
