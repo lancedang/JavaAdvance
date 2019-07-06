@@ -13,7 +13,7 @@ public class NumberHolder {
 	public synchronized void increase() {
 		if (number != 0) {
 			try {
-				wait();
+				this.wait();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -22,13 +22,13 @@ public class NumberHolder {
 
 		number++;
 		System.out.println(Thread.currentThread().getName() + " num " + number);
-		notify();
+		this.notify();
 	}
 
 	public synchronized void decrease() {
 		if (number == 0) {
 			try {
-				wait();
+				this.wait();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

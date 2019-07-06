@@ -135,13 +135,34 @@ public class StringReplaceTest {
 		return result.toString();
 	}
 
+	public static String stringReplace44(StringBuffer stringBuffer) {
+		StringBuffer result = new StringBuffer("");
+		int len = stringBuffer.length();
+
+		for (int i = 0; i < len; i++) {
+			char c = stringBuffer.charAt(i);
+			if (c == ' ') {
+				result.append("%20");
+			} else {
+				result.append(c);
+			}
+		}
+		return result.toString();
+
+	}
+
 	public static String stringReplace5(StringBuffer stringBuffer) {
+		String s = stringBuffer.toString().replaceAll("\\s", "%20");
+		System.out.println(s);
 		return stringBuffer.toString().replaceAll(" ", "%20");
 	}
+
+
 	
 	public static void main(String[] args) {
-		StringBuffer test = new StringBuffer("I am a student ");
+		StringBuffer test = new StringBuffer("I  am a student ");
 		
 		System.out.println(stringReplace5(test));
+		System.out.println(stringReplace44(test));
 	}
 }

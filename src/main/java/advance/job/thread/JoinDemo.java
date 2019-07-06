@@ -11,7 +11,7 @@ public class JoinDemo extends Thread{
 	
 	public static void main(String[] args) {
 		JoinDemo joinDemo = new JoinDemo();
-		new Thread(joinDemo).start();
+		new Thread(joinDemo,"other").start();
 		
 		for (int i = 0; i<100; i++) {
 			if (i == 50 ) {
