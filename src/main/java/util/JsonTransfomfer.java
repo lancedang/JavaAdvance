@@ -21,9 +21,16 @@ public class JsonTransfomfer {
 
     @Test
     public void json2Excel() throws Exception{
-        String jsonString = TestHelper.readSourceFile("var_json.json");
+
+        String fileName = "union_loan_standard_data.json";
+        String resultName = "result_" + "union_loan_standard_data.json";
+
+        String jsonString = TestHelper.readSourceFile(fileName);
         JSONObject jsonObject = JSON.parseObject(jsonString);
-        JSONArray array = jsonObject.getJSONArray("data");
+
+        String arrayKey = "union_loan_internal_data";
+
+        JSONArray array = jsonObject.getJSONArray(arrayKey);
         System.out.println(array.get(0));
 
         int size = array.size();
@@ -39,9 +46,9 @@ public class JsonTransfomfer {
             object.remove("updateUser");
             object.remove("updateTime");
         }
-        System.out.println(array.getJSONObject(0));
+        System.out.println("size=" + array.size());
         String requiredJson = JSON.toJSONString(array);
-        File requiredJsonFile = new File("requiredJson.json");
+        File requiredJsonFile = new File(resultName);
         FileWriter fileWriter = new FileWriter(requiredJsonFile);
         fileWriter.write(requiredJson);
         fileWriter.close();
