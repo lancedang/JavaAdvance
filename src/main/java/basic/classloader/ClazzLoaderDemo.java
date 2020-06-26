@@ -25,4 +25,8 @@ public class ClazzLoaderDemo {
         System.out.println(classLoader2.getParent().getParent());
 
     }
+
+    public void hi() {
+        System.out.println("hi");
+    }
 }
