@@ -1,11 +1,16 @@
 package advance.job.thread.waitnotify;
 
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * 考虑waitting状态线程n个，notify()方法执行m次，n>m的情况-（n-m）个线程永久处于waitting状态
  */
 public class WaitNotifyDemo {
 
     private final static Object lock = new Object();
+
+    private final static ReentrantLock reentrantLock = new ReentrantLock();
 
     public void myWait() {
         synchronized (lock) {
@@ -27,10 +32,16 @@ public class WaitNotifyDemo {
     public void myNotify() {
         synchronized (lock) {
             System.out.println("notify begin");
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 1; i++) {
                 //执行n次，唤醒n个waitting状态的线程，若n小于 处于waitting的线程总数设为m，则有m-n个线程
                 //永久处于waitting状态
                 lock.notify();
+            }
+
+            try {
+                Thread.sleep(10*1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
             System.out.println("notify end");
         }
@@ -40,6 +51,11 @@ public class WaitNotifyDemo {
         synchronized (lock) {
             System.out.println("notify begin");
             lock.notifyAll();
+            try {
+                Thread.sleep(10*1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println("notify end");
         }
     }

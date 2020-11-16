@@ -25,9 +25,9 @@ public class MyClassLoaderTest {
 
         Object o = aClass.newInstance();
 
-        Method method = aClass.getMethod("hi");
+        Method method = aClass.getMethod("hi", String.class);
 
-        method.invoke(o);
+        method.invoke(o, "zhang san");
 
         //输出basic.classloader.MyClassLoader@5acf9800
         System.out.println(aClass.getClassLoader());

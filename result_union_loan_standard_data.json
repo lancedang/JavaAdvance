@@ -1,0 +1,657 @@
+[
+  {
+    "name": "platform_consuming_ability_level",
+    "nameCN": "平台消费力等级",
+    "description": "平台消费力等级"
+  },
+  {
+    "name": "platform_consuming_frequency_level",
+    "nameCN": "消费频次等级",
+    "description": ""
+  },
+  {
+    "name": "platform_consuming_scene_number_level",
+    "nameCN": "消费场景等级",
+    "description": "消费场景等级"
+  },
+  "nameCN": "预测年龄等级",
+  "description": "",
+  {
+    "name": "predicted_age_level",
+  },
+  {
+    "name": "predicted_marital_status_level",
+    "nameCN": "预测是否结婚等级",
+    "description": ""
+  },
+  {
+    "name": "active_city_number_level_last_90d",
+    "nameCN": "过去90天活跃城市数等级",
+    "description": ""
+  },
+  {
+    "name": "predicted_gender_level",
+    "nameCN": "预测性别等级",
+    "description": ""
+  },
+  {
+    "name": "account_register_time_level",
+    "nameCN": "用户注册时长等级",
+    "description": "用户注册时长等级"
+  },
+  {
+    "name": "job_category_code",
+    "nameCN": "行业等级",
+    "description": "行业等级"
+  },
+  {
+    "name": "resident_province_name",
+    "nameCN": "常驻地省份",
+    "description": ""
+  },
+  {
+    "name": "user_order_count_level_in_last_180d",
+    "nameCN": "用户180天交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_order_count_level_in_last_360d",
+    "nameCN": "用户360天交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_order_count_level_in_last_90d",
+    "nameCN": "用户90天交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_order_days_level_in_last_180d",
+    "nameCN": "用户180天交易天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_order_days_level_in_last_360d",
+    "nameCN": "用户360天交易天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_order_days_level_in_last_90d",
+    "nameCN": "用户90天交易天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_order_amount_level_in_last_180d",
+    "nameCN": "用户180天成功交易金额(单位:分)等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_order_amount_level_in_last_360d",
+    "nameCN": "用户360天成功交易金额(单位:分)等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_order_amount_level_in_last_90d",
+    "nameCN": "用户90天成功交易金额(单位:分)等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_order_count_level_in_last_180d",
+    "nameCN": "用户180天成功交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_order_count_level_in_last_360d",
+    "nameCN": "用户360天成功交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_order_count_level_in_last_90d",
+    "nameCN": "用户90天成功交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_waimai_order_count_level_in_last_180d",
+    "nameCN": "用户180天外卖成功交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_waimai_order_count_level_in_last_360d",
+    "nameCN": "用户360天外卖成功交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_successful_waimai_order_count_level_in_last_90d",
+    "nameCN": "用户90天外卖成功交易次数等级",
+    "description": ""
+  },
+  {
+    "name": "user_visit_bg_count_level_in_last_90d",
+    "nameCN": "用户90天访问频道数等级",
+    "description": ""
+  },
+  {
+    "name": "user_active_days_in_last_180d_level",
+    "nameCN": "用户近180天活跃天数等级",
+    "description": "用户近180天活跃天数等级"
+  },
+  {
+    "name": "user_active_days_in_last_360d_level",
+    "nameCN": "用户360天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_active_days_in_last_90d_level",
+    "nameCN": "用户近90天活跃天数等级",
+    "description": "用户近90天活跃天数等级"
+  },
+  {
+    "name": "user_visit_waimai_days_in_last_180d",
+    "nameCN": "用户外卖180天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_visit_waimai_days_in_last_360d",
+    "nameCN": "用户外卖360天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_visit_waimai_days_in_last_90d",
+    "nameCN": "用户外卖90天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_active_tag_in_1y",
+    "nameCN": "年活用户标签等级",
+    "description": ""
+  },
+  {
+    "name": "user_visit_group_buy_days_in_last_180d",
+    "nameCN": "用户团购180天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_visit_group_buy_days_in_last_360d",
+    "nameCN": "用户团购360天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "user_visit_group_buy_days_in_last_90d",
+    "nameCN": "用户团购90天活跃天数等级",
+    "description": ""
+  },
+  {
+    "name": "credit_score_level",
+    "nameCN": "信用分等级",
+    "description": ""
+  },
+  {
+    "name": "s_user_active_city_cnt_90d",
+    "nameCN": "过去90天活跃城市数",
+    "description": "过去90天活跃城市数"
+  },
+  {
+    "name": "v_user_acc_order_cnt_180d",
+    "nameCN": "用户180天交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_cnt_360d",
+    "nameCN": "用户360天交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_cnt_90d",
+    "nameCN": "用户90天交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_day_cnt_180d",
+    "nameCN": "用户180天交易天数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_day_cnt_360d",
+    "nameCN": "用户360天交易天数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_day_cnt_90d",
+    "nameCN": "用户90天交易天数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_succ_cnt_180d",
+    "nameCN": "用户180天成功交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_succ_cnt_360d",
+    "nameCN": "用户360天成功交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_succ_cnt_90d",
+    "nameCN": "用户90天成功交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_waimai_succ_cnt_180d",
+    "nameCN": "用户180天外卖成功交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_waimai_succ_cnt_360d",
+    "nameCN": "用户360天外卖成功交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_order_waimai_succ_cnt_90d",
+    "nameCN": "用户90天外卖成功交易次数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_visit_bg_dis_cnt_90d",
+    "nameCN": "用户90天访问频道数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_visit_day_cnt_180d",
+    "nameCN": "用户180天活跃天数",
+    "description": "用户180天活跃天数"
+  },
+  {
+    "name": "v_user_acc_visit_day_cnt_360d",
+    "nameCN": "用户360天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "v_user_acc_visit_day_cnt_90d",
+    "nameCN": "用户90天活跃天数",
+    "description": "用户90天活跃天数"
+  },
+  {
+    "name": "s_user_acc_waimai_visit_day_cnt_180d",
+    "nameCN": "用户外卖180天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "s_user_acc_waimai_visit_day_cnt_360d",
+    "nameCN": "用户外卖360天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "s_user_acc_waimai_visit_day_cnt_90d",
+    "nameCN": "用户外卖90天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "s_user_acc_group_visit_day_cnt_180d",
+    "nameCN": "用户团购180天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "s_user_acc_group_visit_day_cnt_360d",
+    "nameCN": "用户团购360天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "s_user_acc_group_visit_day_cnt_90d",
+    "nameCN": "用户团购90天活跃天数",
+    "description": ""
+  },
+  {
+    "name": "score_v2",
+    "nameCN": "美团信用分2.0",
+    "description": ""
+  },
+  {
+    "name": "credit_score_v3",
+    "nameCN": "美团信用分3.1",
+    "description": ""
+  },
+  {
+    "name": "resident_city_name",
+    "nameCN": "常驻城市",
+    "description": "常驻城市"
+  },
+  {
+    "name": "v2_zl_age",
+    "nameCN": "年龄",
+    "description": ""
+  },
+  {
+    "name": "v2_zl_edu_level",
+    "nameCN": "教育水平",
+    "description": "教育水平"
+  },
+  {
+    "name": "v2_zl_if_married",
+    "nameCN": "是否已婚",
+    "description": ""
+  },
+  {
+    "name": "v2_zl_occupation",
+    "nameCN": "职业",
+    "description": "职业"
+  },
+  {
+    "name": "v2_zl_sex_predict",
+    "nameCN": "预测性别",
+    "description": ""
+  },
+  {
+    "name": "v2_p_user_debitcard",
+    "nameCN": "绑定借记卡卡数",
+    "description": "绑定借记卡卡数"
+  },
+  {
+    "name": "v2_p_user_growthlevel",
+    "nameCN": "美团平台成长等级",
+    "description": "美团平台成长等级"
+  },
+  {
+    "name": "v2_p_user_growthvalue",
+    "nameCN": "美团平台成长值",
+    "description": "美团平台成长值"
+  },
+  {
+    "name": "v2_p_user_regday",
+    "nameCN": "账龄",
+    "description": ""
+  },
+  {
+    "name": "v2_zl_debit_card_num",
+    "nameCN": "同一账户绑定的储蓄卡数量(当前)",
+    "description": "同一账户绑定的储蓄卡数量(当前)"
+  },
+  {
+    "name": "v2_v_user_acc_visit_daocan_cnt_90d",
+    "nameCN": "到餐bu pv数",
+    "description": "到餐bu pv数"
+  },
+  {
+    "name": "v2_v_user_acc_visit_group_cnt_90d",
+    "nameCN": "page type 为团单页的pv",
+    "description": "page type 为团单页的pv"
+  },
+  {
+    "name": "v2_v_user_acc_visit_hour_dis_cnt_90d",
+    "nameCN": "有pv行为的unique hour数",
+    "description": "有pv行为的unique hour数"
+  },
+  {
+    "name": "v2_v_user_acc_visit_meishi_cnt_90d",
+    "nameCN": "page name 美食商家详情页 pv",
+    "description": "page name 美食商家详情页 pv"
+  },
+  {
+    "name": "v2_v_user_acc_visit_week_cnt_180d",
+    "nameCN": "过去180天活跃周数",
+    "description": "过去180天活跃周数"
+  },
+  {
+    "name": "v2_v_user_acc_visit_week_cnt_360d",
+    "nameCN": "过去360天活跃周数",
+    "description": "过去360天活跃周数"
+  },
+  {
+    "name": "v2_v_user_acc_visit_workday_week_cnt_180d",
+    "nameCN": "过去180天工作日活跃周数",
+    "description": "过去180天工作日活跃周数"
+  },
+  {
+    "name": "v2_v_user_acc_visit_workday_week_cnt_360d",
+    "nameCN": "过去360天工作日活跃周数",
+    "description": "过去360天工作日活跃周数"
+  },
+  {
+    "name": "v2_zl_last180days_morning_visit_days",
+    "nameCN": "近180天在凌晨0:00-6:00点浏览团购的天数",
+    "description": ""
+  },
+  {
+    "name": "v2_zl_last180days_visit_months",
+    "nameCN": "近180天有过浏览的月份数",
+    "description": "近180天有过浏览的月份数"
+  },
+  {
+    "name": "s_max_active_days_in_30_days",
+    "nameCN": "30天内最大活跃天数(分app看最大)",
+    "description": "30天内最大活跃天数(分app看最大)"
+  },
+  {
+    "name": "s_max_dayspan_of_longest_empty_dayspan_in_180_days",
+    "nameCN": "180天内最长休眠期天数",
+    "description": "180天内最长休眠期天数"
+  },
+  {
+    "name": "s_max_dayspan_of_longest_empty_dayspan_in_360_days",
+    "nameCN": "360天内最长休眠期天数",
+    "description": "360天内最长休眠期天数"
+  },
+  {
+    "name": "v2_zl_last365days_meishi_max_amount",
+    "nameCN": "近365天美食类团购成功订单的最大金额",
+    "description": "近365天美食类团购成功订单的最大金额"
+  },
+  {
+    "name": "v2_zl_mt_1y_count",
+    "nameCN": "近1年银行卡支付次数",
+    "description": "近1年银行卡支付次数"
+  },
+  {
+    "name": "s_group_active_median_dayspan_in_30_days",
+    "nameCN": "30天内团购活跃时间中位数距今天数",
+    "description": "30天内团购活跃时间中位数距今天数"
+  },
+  {
+    "name": "s_group_dayspan_of_longest_empty_dayspan_in_180_days",
+    "nameCN": "180天内团购最长休眠期天数",
+    "description": "180天内团购最长休眠期天数"
+  },
+  {
+    "name": "s_group_dayspan_of_longest_empty_dayspan_in_360_days",
+    "nameCN": "360天内团购最长休眠期天数",
+    "description": "360天内团购最长休眠期天数"
+  },
+  {
+    "name": "s_group_smallest_active_dayspan_in_360_days",
+    "nameCN": "360天内团购活跃时点距今天数",
+    "description": "360天内团购活跃时点距今天数"
+  },
+  {
+    "name": "v2_r_user_paycftsuccamt_o_payamt_180d",
+    "nameCN": "过去180天余额交易成功金额在总交易金额中占比",
+    "description": "过去180天余额交易成功金额在总交易金额中占比"
+  },
+  {
+    "name": "v2_r_user_paycftsuccamt_o_payamt_90d",
+    "nameCN": "过去90天余额交易成功金额在总交易金额中占比",
+    "description": "过去90天余额交易成功金额在总交易金额中占比"
+  },
+  {
+    "name": "v2_r_user_paycftsucccnt_o_paycnt_180d",
+    "nameCN": "过去180天余额交易成功次数在总交易次数中占比",
+    "description": ""
+  },
+  {
+    "name": "v2_r_user_paycftsucccnt_o_paycnt_90d",
+    "nameCN": "过去90天余额交易成功次数在总交易次数中占比",
+    "description": "过去90天余额交易成功次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_paycreditsuccamt_o_payamt_180d",
+    "nameCN": "过去180天信用卡成功交易金额在总交易金额中占比",
+    "description": "过去180天信用卡成功交易金额在总交易金额中占比"
+  },
+  {
+    "name": "v2_r_user_paycreditsuccamt_o_payamt_90d",
+    "nameCN": "过去90天信用卡成功交易金额在总交易金额中占比",
+    "description": "过去90天信用卡成功交易金额在总交易金额中占比"
+  },
+  {
+    "name": "v2_r_user_paycreditsucccnt_o_paycnt_180d",
+    "nameCN": "过去180天信用卡交易成功次数在总交易次数中占比",
+    "description": "过去180天信用卡交易成功次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_paycreditsucccnt_o_paycnt_90d",
+    "nameCN": "过去90天信用卡交易成功次数在总交易次数中占比",
+    "description": "过去90天信用卡交易成功次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_le100_o_paycnt_180d",
+    "nameCN": "过去180天100块以下失败交易次数在总交易次数中占比",
+    "description": "过去180天100块以下失败交易次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_le100_o_paycnt_360d",
+    "nameCN": "过去360天100块以下失败交易次数在总交易次数中占比",
+    "description": "过去360天100块以下失败交易次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_le200_o_paycnt_180d",
+    "nameCN": "过去180天200块以下失败交易次数在总交易次数中占比",
+    "description": "过去180天200块以下失败交易次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_le200_o_paycnt_360d",
+    "nameCN": "过去360天200块以下失败交易次数在总交易次数中占比",
+    "description": "过去360天200块以下失败交易次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_le50_o_paycnt_180d",
+    "nameCN": "过去180天50块以下失败交易次数在总交易次数中占比",
+    "description": "过去180天50块以下失败交易次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_le50_o_paycnt_360d",
+    "nameCN": "过去360天50块以下失败交易次数在总交易次数中占比",
+    "description": "过去360天50块以下失败交易次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_o_paycnt_180d",
+    "nameCN": "过去180天交易失败次数在总交易次数中占比",
+    "description": "过去180天交易失败次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfailcnt_o_paycnt_360d",
+    "nameCN": "过去360天交易失败次数在总交易次数中占比",
+    "description": "过去360天交易失败次数在总交易次数中占比"
+  },
+  {
+    "name": "v2_r_user_payfaildaycnt_o_paydaycnt_180d",
+    "nameCN": "过去180天交易失败天数在总交易天数中占比",
+    "description": "过去180天交易失败天数在总交易天数中占比"
+  },
+  {
+    "name": "v2_r_user_payfaildaycnt_o_paydaycnt_360d",
+    "nameCN": "过去360天交易失败天数在总交易天数中占比",
+    "description": ""
+  },
+  {
+    "name": "v2_r_user_paynotmeishicnt_o_paycnt_180d",
+    "nameCN": "过去180天非美食类消费次数占总体消费比例",
+    "description": "过去180天非美食类消费次数占总体消费比例"
+  },
+  {
+    "name": "v2_r_user_paynotmeishicnt_o_paycnt_360d",
+    "nameCN": "过去360天非美食类消费次数占总体消费比例",
+    "description": "过去360天非美食类消费次数占总体消费比例"
+  },
+  {
+    "name": "v2_r_user_paywmabnormtimecnt_o_paywmcnt_180d",
+    "nameCN": "最近180天异常时间外卖交易订单占比",
+    "description": "最近180天异常时间外卖交易订单占比"
+  },
+  {
+    "name": "v2_r_user_paywmabnormtimecnt_o_paywmcnt_360d",
+    "nameCN": "最近360天异常时间外卖交易订单占比",
+    "description": ""
+  },
+  {
+    "name": "v2_s_max_user_pay_meishi_succ_amt_180d",
+    "nameCN": "过去180天美食类消费成功支付的最大金额",
+    "description": "过去180天美食类消费成功支付的最大金额"
+  },
+  {
+    "name": "v2_s_max_user_pay_meishi_succ_amt_360d",
+    "nameCN": "过去360天美食类消费成功支付的最大金额",
+    "description": "过去360天美食类消费成功支付的最大金额"
+  },
+  {
+    "name": "v2_s_std_user_pay_waimai_time_180d",
+    "nameCN": "最近180天外卖交易时间离散度",
+    "description": "最近180天外卖交易时间离散度"
+  },
+  {
+    "name": "v2_s_std_user_pay_waimai_time_360d",
+    "nameCN": "最近360天外卖交易时间离散度",
+    "description": "最近360天外卖交易时间离散度"
+  },
+  {
+    "name": "v2_v_user_acc_pay_credit_succ_amt_180d",
+    "nameCN": "过去180天信用卡成功交易金额",
+    "description": "过去180天信用卡成功交易金额"
+  },
+  {
+    "name": "v2_v_user_acc_pay_credit_succ_amt_360d",
+    "nameCN": "过去360天信用卡成功交易金额",
+    "description": "过去360天信用卡成功交易金额"
+  },
+  {
+    "name": "v2_v_user_acc_pay_credit_succ_cnt_180d",
+    "nameCN": "过去180天信用卡成功交易次数",
+    "description": "过去180天信用卡成功交易次数"
+  },
+  {
+    "name": "v2_v_user_acc_pay_credit_succ_cnt_360d",
+    "nameCN": "过去360天信用卡成功交易次数",
+    "description": "过去360天信用卡成功交易次数"
+  },
+  {
+    "name": "v2_v_user_acc_pay_mkcredit_succ_amt_180d",
+    "nameCN": "过去180天美快信用卡成功交易金额",
+    "description": "过去180天美快信用卡成功交易金额"
+  },
+  {
+    "name": "v2_v_user_acc_pay_mkcredit_succ_amt_90d",
+    "nameCN": "过去90天美快信用卡成功交易金额",
+    "description": "过去90天美快信用卡成功交易金额"
+  },
+  {
+    "name": "v2_v_user_acc_pay_mkcredit_succ_cnt_180d",
+    "nameCN": "过去180天美快信用卡成功交易次数",
+    "description": "过去180天美快信用卡成功交易次数"
+  },
+  {
+    "name": "v2_v_user_acc_pay_mkcredit_succ_cnt_90d",
+    "nameCN": "过去90天美快信用卡成功交易次数",
+    "description": "过去90天美快信用卡成功交易次数"
+  },
+  {
+    "name": "platform_consuming_ability",
+    "nameCN": "平台消费力等级",
+    "description": "平台消费力等级"
+  },
+  {
+    "name": "platform_consuming_frequency",
+    "nameCN": "消费频次等级",
+    "description": "消费频次等级"
+  },
+  {
+    "name": "platform_consuming_scene_number",
+    "nameCN": "消费场景等级",
+    "description": "消费场景等级"
+  },
+  {
+    "name": "v2_p_user_regday_interval",
+    "nameCN": "账龄（距今天数）",
+    "description": ""
+  },
+  {
+    "name": "cashloan_gaia_score_level",
+    "nameCN": "生活费盖亚分等级",
+    "description": ""
+  }
+]

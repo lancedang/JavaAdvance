@@ -26,7 +26,7 @@ public class ClazzLoaderDemo {
 
     }
 
-    public void hi() {
-        System.out.println("hi");
+    public void hi(String name) {
+        System.out.println(name);
     }
 }
