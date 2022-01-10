@@ -7,9 +7,6 @@ import java.io.FileWriter;
 
 import org.junit.Test;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 
 /**
  * 读取json文件获取，增加、删除特定field后重新生成修改后的json文件
@@ -22,7 +19,7 @@ public class JsonTransfomfer {
     @Test
     public void json2Excel() throws Exception{
 
-        String fileName = "union_loan_standard_data.json";
+/*        String fileName = "union_loan_standard_data.json";
         String resultName = "result_" + "union_loan_standard_data.json";
 
         String jsonString = TestHelper.readSourceFile(fileName);
@@ -51,7 +48,7 @@ public class JsonTransfomfer {
         File requiredJsonFile = new File(resultName);
         FileWriter fileWriter = new FileWriter(requiredJsonFile);
         fileWriter.write(requiredJson);
-        fileWriter.close();
+        fileWriter.close();*/
 
     }
 

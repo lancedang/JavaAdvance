@@ -1,3 +1,4 @@
+/*
 package util;
 
 import java.io.InputStream;
@@ -7,9 +8,11 @@ import java.util.List;
 import com.alibaba.fastjson.JSON;
 
 
+*/
 /**
  * Created by qiankai02 on 2017/11/9.
- */
+ *//*
+
 public class TestHelper {
 
     //return object from JSON string
@@ -39,3 +42,4 @@ public class TestHelper {
     }
 
 }
+*/

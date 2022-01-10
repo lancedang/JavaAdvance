@@ -2,7 +2,7 @@
 // All rights reserved
 package test;
 
-import com.alibaba.fastjson.JSON;
+//import com.alibaba.fastjson.JSON;
 
 import java.util.*;
 
@@ -65,7 +65,7 @@ public class Demo {
         map.put("cronExpression", "0/10 * * * * ?");
         map.put("recordNum", "1000");
 
-        System.out.println(JSON.toJSONString(map));
+        //System.out.println(JSON.toJSONString(map));
 
 
 
