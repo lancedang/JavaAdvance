@@ -43,4 +43,12 @@ class MyThread extends Thread{
             System.out.println("thread= " + Thread.currentThread()+ ", after wait rest=" + rest);
         }
     }
+
+    public synchronized void test() {
+
+    }
+
+    public synchronized void test2() throws InterruptedException {
+        wait();
+    }
 }
