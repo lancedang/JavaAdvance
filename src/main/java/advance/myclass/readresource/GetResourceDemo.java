@@ -1,6 +1,7 @@
 package advance.myclass.readresource;
 
 import java.io.IOException;
+import java.net.URL;
 
 /**
  * 通过 class 类和 classloader 获取资源的练习
@@ -36,6 +37,7 @@ public class GetResourceDemo {
         System.out.println("..........................................................");
         //搜寻路径，跟所在类没关系， /target/classes classpath 路径
         ClassLoader classLoader = demoClass.getClassLoader();
+        URL resource = classLoader.getResource("");
 
         System.out.println("classLoader.getResource(\"\")=\n   " + classLoader.getResource(""));
         System.out.println("classLoader.getResource(\"/\")=\n   " + classLoader.getResource("/"));
