@@ -5,8 +5,11 @@
     <groupId>com.dangdang</groupId>
     <artifactId>JavaAdvance</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>MyDemoAgent</module>
+    </modules>
 
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <name>JavaAdvance</name>
     <url>http://maven.apache.org</url>
