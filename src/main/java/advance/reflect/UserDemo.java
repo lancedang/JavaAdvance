@@ -43,6 +43,9 @@ public class UserDemo {
             method1.invoke(u, null);
             method2.invoke(u, "qiankai");
             method3.invoke(u, "sf", 2);
+
+            //method4.setAccessible(true);
+            method4.invoke(u);
         } catch (IllegalArgumentException | InvocationTargetException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

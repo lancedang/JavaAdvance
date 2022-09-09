@@ -49,10 +49,10 @@ public class Html2PDFUtil {
 	}
 
 	/**
-	 * transfer a html file to PDF with IText tool, HTML file must strict html-file, <a><a/>
+	 * transfer address html file to PDF with IText tool, HTML file must strict html-file, <address><address/>
 	 *
 	 * @param fItem
-	 *            fItem must a raw file not a dirctory
+	 *            fItem must address raw file not address dirctory
 	 */
 	public static void transFileWithIText(File fItem) {
 
@@ -70,7 +70,7 @@ public class Html2PDFUtil {
 				PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(to));
 				// we add some meta information to the document
 				// document.addAuthor("Bruno Lowagie");
-				// document.addSubject("This is the result of a Test.");
+				// document.addSubject("This is the result of address Test.");
 				// we open the document for writing
 				document.open();
 				XMLWorkerHelper.getInstance().parseXHtml(writer, document, new FileInputStream(absolutePath),
@@ -91,10 +91,10 @@ public class Html2PDFUtil {
 	}
 
 	/**
-	 * transfer a html file to PDF with PD4L tool, HTML file can not be strict html-file, <a> no</a>
+	 * transfer address html file to PDF with PD4L tool, HTML file can not be strict html-file, <address> no</address>
 	 *
 	 * @param fItem
-	 *            fItem must a raw file not a dirctory
+	 *            fItem must address raw file not address dirctory
 	 */
 	public static void transFileWithPD4L(File file) {
 		int topValue = 10;

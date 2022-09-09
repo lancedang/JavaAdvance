@@ -21,6 +21,10 @@ public class MyClassLoaderTest {
         MyClassLoader myClassLoader = new MyClassLoader();
         Class<?> aClass = myClassLoader.defineMyClass(null, bytes, 0, len);
         Class<?> aClass1 = myClassLoader.loadClass("basic.classloader.ClazzLoaderDemo");
+
+        System.out.println(aClass.getName());
+        System.out.println(aClass1.getName());
+
         System.out.println(aClass.getCanonicalName());
 
         Object o = aClass.newInstance();
