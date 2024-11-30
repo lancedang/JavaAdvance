@@ -3,7 +3,6 @@ package concurrent.core2.atom;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import sun.misc.Unsafe;
-import sun.reflect.Reflection;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.CountDownLatch;
