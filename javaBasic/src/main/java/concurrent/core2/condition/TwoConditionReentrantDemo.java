@@ -4,22 +4,26 @@ import concurrent.core2.ClockUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
+//ReentrantLock + 多个Condition实现生产者消费者模型
+//单个Condition模拟了最简的生产消费模型
+//多个Condition 用来实现:
+// 不满->可以插入；
+// 不空->可以消费；
 @Slf4j
-public class MultiConditionCommunicateDemo {
+public class TwoConditionReentrantDemo {
 
     public static final int MAX = 10;
 
     //描述一个仓储空间，可以存、取东西
-    public static class StuffStore<T> {
+    public static class DongxiRoom<T> {
         //存储空间
-        private List<T> storeList = new ArrayList<>();
+        private final List<T> storeList = new ArrayList<>();
 
         private volatile int amount = 0;
 
@@ -110,7 +114,7 @@ public class MultiConditionCommunicateDemo {
 
         CountDownLatch countDownLatch = new CountDownLatch(2);
 
-        StuffStore<String> store = new StuffStore<>();
+        DongxiRoom<String> store = new DongxiRoom<>();
 
         Runnable addRun = new Runnable() {
             @Override
