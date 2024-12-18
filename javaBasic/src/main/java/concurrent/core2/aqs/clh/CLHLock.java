@@ -14,12 +14,12 @@ import java.util.concurrent.locks.Lock;
 public class CLHLock implements Lock {
 
     //使用AtomicReference达到引用类型的原子设置
-    private AtomicReference<Node> tail = new AtomicReference<>();
+    private final AtomicReference<Node> tail = new AtomicReference<>();
 
     //保存当前线程对应的锁node
     //每个线程若没有获取到锁，是先放到队列里的，队列元素是node
     //相当于一个node对应一个线程
-    private ThreadLocal<Node> threadLocal = new ThreadLocal<>();
+    private final ThreadLocal<Node> threadLocal = new ThreadLocal<>();
 
     public CLHLock() {
         tail.getAndSet(Node.empty_node);
@@ -32,8 +32,10 @@ public class CLHLock implements Lock {
     @Override
     public void lock() {
 
+        //加锁前先构造一个Node,初始化为true
         Node currNode = new Node(true, null);
 
+        //获取当前的队列尾部
         Node preNode = tail.get();
 
         //1.先进行cas自旋

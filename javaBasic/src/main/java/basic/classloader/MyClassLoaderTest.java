@@ -37,6 +37,5 @@ public class MyClassLoaderTest {
         System.out.println(aClass.getClassLoader());
         System.out.println(aClass1.getClassLoader());
 
-
     }
 }

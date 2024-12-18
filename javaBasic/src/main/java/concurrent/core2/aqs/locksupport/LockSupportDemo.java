@@ -3,6 +3,7 @@ package concurrent.core2.aqs.locksupport;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
 
 @Slf4j
@@ -15,6 +16,9 @@ public class LockSupportDemo {
         a2.start();
 
         TimeUnit.SECONDS.sleep(4);
+        LockSupport.unpark(a1);
+        LockSupport.unpark(a2);
+        TimeUnit.SECONDS.sleep(1);
         a1.interrupt();
 
         TimeUnit.SECONDS.sleep(5);
