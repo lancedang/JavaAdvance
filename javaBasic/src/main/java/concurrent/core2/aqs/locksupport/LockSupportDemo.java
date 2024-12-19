@@ -16,8 +16,8 @@ public class LockSupportDemo {
         a2.start();
 
         TimeUnit.SECONDS.sleep(4);
-        LockSupport.unpark(a1);
-        LockSupport.unpark(a2);
+//        LockSupport.unpark(a1);
+//        LockSupport.unpark(a2);
         TimeUnit.SECONDS.sleep(1);
         a1.interrupt();
 
