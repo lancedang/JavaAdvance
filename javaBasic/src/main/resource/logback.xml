@@ -5,7 +5,8 @@
 
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
-            <pattern>%date [%thread] %-5level %logger{80}.%M-%L- %msg%n</pattern>
+<!--            <pattern>%date[%thread]%-5level %logger{1}.%M-%L-%msg%n</pattern>-->
+            <pattern>%date[%thread]%-5level-%msg%n</pattern>
         </layout>
     </appender>
 
