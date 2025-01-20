@@ -13,7 +13,6 @@ import java.util.concurrent.Executors;
 public class ReadWriteLockDemo {
     public static void main(String[] args) {
 
-
         ReadWriteLockRoom manager = new ReadWriteLockRoom();
 
         List<Character> choices = Lists.newArrayList('a', 'b', 'c', 'x');
@@ -42,6 +41,15 @@ public class ReadWriteLockDemo {
                     manager.add(character.toString());
 
 //                }
+            }
+        };
+
+        new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 10; i++) {
+                    log.info("");
+                }
             }
         };
 
